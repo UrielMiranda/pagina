@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+section{
+  width: 100%;
+  height: 500px;
+  border: 1px solid #fff;
+
+}
+#uno{
+  background: url("../img/blue.jpg") center center fixed;
+  background-size: cover;
+  padding-top: 30px;
+}
+#dos{
+  background: url("../img/faro.jpg") center center fixed;
+  background-size: cover;
+  height: 500px;
+}
+#tres{
+  background: url("../img/city.jpg") center center fixed;
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 260px;
+}
+li{
+  display: inline-block;
+  margin: 20px;
+  color:white;
+  right: 0;
+  text-decoration: none;
+}
+ul{
+    float: right;
+}
+nav{
+  height: 70px;
+  width: 100%;
+  z-index: 200;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+a:visited{
+  color:white;
+  }
+a:link{
+  text-decoration: none;
+}
